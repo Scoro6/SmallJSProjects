@@ -34,22 +34,22 @@ body{
 }
 .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero{
     color:#49B9F7;
-    width:25%;
+    width:100%;
     height:100px;
     font-size:2em;
-    padding:0.9em;
-    padding-left:1.1em;
-    padding-right:1.1em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     cursor:pointer;
 }
 .clear,.add,.sub,.div,.mul,.equal{
     color:#C03963;
-    width:25%;
+    width:100%;
     height:100px;
     font-size:2em;
-    padding:0.9em;
-    padding-left:1.1em;
-    padding-right:1.1em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     cursor:pointer;
 }
 .div{
@@ -57,4 +57,31 @@ body{
     padding:1.1em;
     padding-left:1.5em;
     padding-right:1.5em;
+}
+
+@media (max-width:600px)
+{
+    .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero{
+        font-size:1.6em;
+        height:70px;
+    }
+    .clear,.add,.sub,.div,.mul,.equal{
+        font-size:1.6em;
+        height:70px;
+    }
+    .div{
+        font-size:1.3em;
+    padding:0.8em;
+    padding-left:1.2em;
+    padding-right:1.2em;
+    }
+    .display{
+        height:60px;
+        padding:0.6em;
+        font-size:1.4em;
+    }
+    .container{
+        width:300px;
+        height:340px;
+    }
 }
