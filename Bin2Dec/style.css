@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  display: block;
+  width: 100%;
+  border: solid 10px red;
+  font-size: 64px;
+  padding: 20px;
+  line-height: 64px;
+  color: red;
+  background-color: #000;
+  outline: none;
+}
+#binary {
+  margin-bottom: 190px;
+}
+#decimal {
+  margin-top: 190px;
+}
+button {
+  font-size: 48px;
+  width: 300px;
+  padding: 20px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  background: red;
+  color: #000;
+}
